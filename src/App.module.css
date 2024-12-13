@@ -1,0 +1,30 @@
+.container {
+	display: inline-block;
+	background-color: var(--color-light);
+	padding: 32px 24px;
+	border-radius: 12px;
+	max-width: 800px;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	gap: 5rem;
+}
+
+.button {
+	padding: 0.5rem 1rem;
+	border-radius: 12px;
+	border: none;
+	font-size: 1.5rem;
+	background-color: var(--color-dark);
+	color: var(--color-secondary);
+	cursor: pointer;
+	transition: background-color 0.3s ease, color 0.3s ease, scale 0.3s ease;
+}
+
+.button:hover {
+	background-color: var(--color-dark-hover);
+	color: var(--color-dark);
+	scale: 1.1;
+}

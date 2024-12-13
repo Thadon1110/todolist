@@ -1,0 +1,18 @@
+.task {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-top: 16px;
+	padding-top: 16px;
+	min-width: 400px;
+	border-top: 1px solid var(--color-dark);
+	list-style-type: none;
+}
+
+.name {
+	width: 100%;
+}
+
+.completed {
+	text-decoration: line-through;
+}
