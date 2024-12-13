@@ -46,7 +46,7 @@ function App() {
 		<div className={styles.container}>
 			<header className={styles.header}>
 				<div>
-					<h1>Todo</h1>
+					<h1>Do zbronienia</h1>
 					<h2>{getSubheading(tasks.length)}</h2>
 				</div>
 
